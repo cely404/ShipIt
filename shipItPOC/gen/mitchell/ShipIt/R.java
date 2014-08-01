@@ -916,6 +916,7 @@ containing a value of this type.
         public static final int abs__toast_frame=0x7f02006f;
         public static final int ic_action_search=0x7f020070;
         public static final int ic_launcher=0x7f020071;
+        public static final int list_icon=0x7f020072;
     }
     public static final class id {
         public static final int abs__action_bar=0x7f040020;
@@ -957,19 +958,27 @@ containing a value of this type.
         public static final int abs__textButton=0x7f040013;
         public static final int abs__title=0x7f04001b;
         public static final int abs__up=0x7f04000b;
-        public static final int action_settings=0x7f040034;
+        public static final int action_settings=0x7f04003c;
+        public static final int container=0x7f040032;
         public static final int disableHome=0x7f040009;
         public static final int edit_query=0x7f040026;
+        public static final int faq=0x7f04003b;
         public static final int homeAsUp=0x7f040006;
-        public static final int label_text=0x7f040032;
+        public static final int importantNumbers=0x7f04003a;
+        public static final int label_text=0x7f040033;
         public static final int listMode=0x7f040002;
-        public static final int menu_settings=0x7f040033;
+        public static final int localGrub=0x7f040036;
+        public static final int maps=0x7f040038;
+        public static final int melvinsMenu=0x7f040035;
+        public static final int menuIcon=0x7f040034;
         public static final int normal=0x7f040001;
+        public static final int pennyPincher=0x7f040039;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
         public static final int tabMode=0x7f040003;
         public static final int useLogo=0x7f040004;
+        public static final int wellness=0x7f040037;
         public static final int wrap_content=0x7f040000;
     }
     public static final class integer {
@@ -997,17 +1006,42 @@ containing a value of this type.
         public static final int abs__search_dropdown_item_icons_2line=0x7f030012;
         public static final int abs__search_view=0x7f030013;
         public static final int abs__simple_dropdown_hint=0x7f030014;
-        public static final int activity_main=0x7f030015;
-        public static final int activity_melvin_menu=0x7f030016;
-        public static final int fragment_sample=0x7f030017;
-        public static final int sherlock_spinner_dropdown_item=0x7f030018;
-        public static final int sherlock_spinner_item=0x7f030019;
+        public static final int activity_faq=0x7f030015;
+        public static final int activity_important_numbers=0x7f030016;
+        public static final int activity_local_grub=0x7f030017;
+        public static final int activity_main=0x7f030018;
+        public static final int activity_maps=0x7f030019;
+        public static final int activity_melvin_menu=0x7f03001a;
+        public static final int activity_penny_pincher_activiy=0x7f03001b;
+        public static final int activity_wellness=0x7f03001c;
+        public static final int fragment_faq=0x7f03001d;
+        public static final int fragment_important_numbers=0x7f03001e;
+        public static final int fragment_local_grub=0x7f03001f;
+        public static final int fragment_maps=0x7f030020;
+        public static final int fragment_penny_pincher_activiy=0x7f030021;
+        public static final int fragment_sample=0x7f030022;
+        public static final int fragment_wellness=0x7f030023;
+        public static final int sherlock_spinner_dropdown_item=0x7f030024;
+        public static final int sherlock_spinner_item=0x7f030025;
     }
     public static final class menu {
         public static final int activity_main=0x7f0c0000;
-        public static final int melvin_menu=0x7f0c0001;
+        public static final int faq=0x7f0c0001;
+        public static final int important_numbers=0x7f0c0002;
+        public static final int local_grub=0x7f0c0003;
+        public static final int maps=0x7f0c0004;
+        public static final int melvin_menu=0x7f0c0005;
+        public static final int penny_pincher_activiy=0x7f0c0006;
+        public static final int wellness=0x7f0c0007;
     }
     public static final class string {
+        public static final int FAQActivity=0x7f090016;
+        public static final int ImportantNumbersActivity=0x7f090017;
+        public static final int LocalGrubActivity=0x7f090019;
+        public static final int MapsActivity=0x7f090018;
+        public static final int MelvinMenu=0x7f090015;
+        public static final int PennyPincherActivity=0x7f09001b;
+        public static final int WellnessActivity=0x7f09001a;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abs__action_bar_home_description=0x7f090000;
@@ -1049,10 +1083,24 @@ containing a value of this type.
         public static final int abs__shareactionprovider_share_with_application=0x7f090007;
         public static final int action_settings=0x7f090012;
         public static final int app_name=0x7f09000d;
+        public static final int faq=0x7f090021;
         public static final int hello_world=0x7f09000e;
+        public static final int importantNumbers=0x7f090020;
+        public static final int localGrub=0x7f09001c;
+        public static final int maps=0x7f09001e;
         public static final int melvin_menu=0x7f090010;
+        public static final int melvinsMenu=0x7f090014;
+        public static final int menuIcon=0x7f090013;
         public static final int menu_settings=0x7f09000f;
+        public static final int pennyPincher=0x7f09001f;
+        public static final int title_activity_faq=0x7f090022;
+        public static final int title_activity_important_numbers=0x7f090023;
+        public static final int title_activity_local_grub=0x7f090024;
+        public static final int title_activity_maps=0x7f090027;
         public static final int title_activity_melvin_menu=0x7f090011;
+        public static final int title_activity_penny_pincher_activiy=0x7f090026;
+        public static final int title_activity_wellness=0x7f090025;
+        public static final int wellness=0x7f09001d;
     }
     public static final class style {
         public static final int AppTheme=0x7f0a0059;

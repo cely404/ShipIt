@@ -7,5 +7,26 @@
     <string name="melvin_menu">Melvin Menu</string>
     <string name="title_activity_melvin_menu">MelvinMenu</string>
     <string name="action_settings">Settings</string>
+    <string name="menuIcon">Menu Icon</string>
+    <string name="melvinsMenu">Melvins Menu</string>
+    <string name="MelvinMenu">Melvins Menu Activity</string>
+    <string name="FAQActivity">FAQ Activity</string>
+    <string name="ImportantNumbersActivity">Important Numbers Activity</string>
+    <string name="MapsActivity">Maps Activity</string>
+    <string name="LocalGrubActivity">Local Grub Activity</string>
+    <string name="WellnessActivity">Wellness Activity</string>
+    <string name="PennyPincherActivity">Penny Pincher Activity</string>
+    <string name="localGrub">Local Grub</string>
+    <string name="wellness">Wellness</string>
+    <string name="maps">Maps</string>
+    <string name="pennyPincher">Penny Pincher</string>
+    <string name="importantNumbers">Important Numbers</string>
+    <string name="faq">FAQ</string>
+    <string name="title_activity_faq">FAQActivity</string>
+    <string name="title_activity_important_numbers">ImportantNumbersActivity</string>
+    <string name="title_activity_local_grub">LocalGrubActivity</string>
+    <string name="title_activity_wellness">WellnessActivity</string>
+    <string name="title_activity_penny_pincher_activiy">PennyPincherActiviy</string>
+    <string name="title_activity_maps">MapsActivity</string>
 
 </resources>

@@ -1,25 +1,74 @@
 
 package mitchell.ShipIt;
 
+import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.os.Bundle;
+import android.view.WindowManager;
+
+import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
-import com.googlecode.androidannotations.annotations.AfterViews;
-import com.googlecode.androidannotations.annotations.EActivity;
+import com.actionbarsherlock.view.MenuItem;
 
-@EActivity(R.layout.activity_main)
-public class MainActivity
-    extends SherlockFragmentActivity
+public class MainActivity extends SherlockActivity
 {
+Menu mymenu;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		Bundle bundle = getIntent().getExtras();
+		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+				WindowManager.LayoutParams.FLAG_FULLSCREEN);
+		setTitle("Temporary");
 
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-    @AfterViews
-    void afterViews() {
-    }
-
+	}
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getSupportMenuInflater();
+        getSupportMenuInflater().inflate(R.menu.activity_main, menu);
+        getSupportActionBar().setBackgroundDrawable(
+				new ColorDrawable(Color.rgb(223, 160, 23)));
+		mymenu = menu;
         return true;
     }
+    
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+			case R.id.melvinsMenu: {
+				Intent i = new Intent(this, MelvinMenu.class); 
+				startActivity(i);
+			}
+			case R.id.localGrub: {
+				Intent i = new Intent(this, LocalGrubActivity.class); 
+				startActivity(i);
+			}
+			case R.id.wellness: {
+				Intent i = new Intent(this, WellnessActivity.class); 
+				startActivity(i);
+			}
+			case R.id.maps: {
+				Intent i = new Intent(this, MapsActivity.class); 
+				startActivity(i);
+			}
+			case R.id.pennyPincher: {
+				Intent i = new Intent(this, PennyPincherActivity.class); 
+				startActivity(i);
+			}
+			case R.id.importantNumbers: {
+				Intent i = new Intent(this, ImportantNumbersActivity.class); 
+				startActivity(i);
+			}
+			case R.id.faq: {
+				Intent i = new Intent(this, FAQActivity.class); 
+				startActivity(i);
+			}
+			default: {}
+			return false;
+			}
 
+	}
 }

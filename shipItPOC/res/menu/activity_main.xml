@@ -1,6 +1,48 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/menu_settings"
-        android:title="@string/menu_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never" />
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item 
+	 	android:id="@+id/menuIcon"
+	    android:orderInCategory="8"
+	    android:showAsAction="always"
+	    android:icon="@drawable/list_icon"
+	    android:title="@string/menuIcon"
+	    android:menuCategory="container"
+        android:visible="true">
+	    <menu>
+		    <item
+		        android:id="@+id/melvinsMenu"
+		        android:orderInCategory="1"
+		        android:showAsAction="always|withText"
+		        android:title="@string/melvinsMenu"/>
+		    <item
+		        android:id="@+id/localGrub"
+		        android:orderInCategory="2"
+		        android:showAsAction="always|withText"
+		        android:title="@string/localGrub"/>
+		    <item
+		        android:id="@+id/wellness"
+		        android:orderInCategory="3"
+		        android:showAsAction="always|withText"
+		        android:title="@string/wellness"/>
+		    <item
+		        android:id="@+id/maps"
+		        android:orderInCategory="4"
+		        android:showAsAction="always|withText"
+		        android:title="@string/maps"/>
+		    <item
+		        android:id="@+id/pennyPincher"
+		        android:orderInCategory="5"
+		        android:showAsAction="always|withText"
+		        android:title="@string/pennyPincher"/>
+		    <item
+		        android:id="@+id/importantNumbers"
+		        android:orderInCategory="6"
+		        android:showAsAction="always|withText"
+		        android:title="@string/importantNumbers"/>
+		    <item
+		        android:id="@+id/faq"
+		        android:orderInCategory="7"
+		        android:showAsAction="always|withText"
+		        android:title="@string/faq"/>
+    	</menu>
+	</item>
 </menu>
