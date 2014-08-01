@@ -38,7 +38,7 @@ public class PennyPincherActivity extends SherlockActivity
 		Bundle bundle = getIntent().getExtras();
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 				WindowManager.LayoutParams.FLAG_FULLSCREEN);
-		setTitle("Temporary");
+		setTitle("Penny Pincher");
 
 		setContentView( R.layout.activity_penny_pincher_activiy );
 		
@@ -177,7 +177,7 @@ public class PennyPincherActivity extends SherlockActivity
     public boolean onCreateOptionsMenu(Menu menu) {
         getSupportMenuInflater().inflate(R.menu.penny_pincher_activiy, menu);
         getSupportActionBar().setBackgroundDrawable(
-				new ColorDrawable(Color.rgb(223, 160, 23)));
+				new ColorDrawable(Color.rgb(50, 113, 238)));
 		mymenu = menu;
         return true;
     }

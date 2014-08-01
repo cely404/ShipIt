@@ -43,6 +43,7 @@ public class WellnessActivity extends SherlockActivity {
 				//User user = (User)i.getSerializableExtra("userobj");
 				//getEvents(user);
 				initDatePicker();
+				setTitle("Wellness");
 
         }
 
@@ -69,7 +70,7 @@ public class WellnessActivity extends SherlockActivity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getSupportMenuInflater().inflate(R.menu.wellness, menu);
 		getSupportActionBar().setBackgroundDrawable(
-				new ColorDrawable(Color.rgb(88, 196, 88)));
+				new ColorDrawable(Color.rgb(50, 113, 238)));
 	
 		return true;
 	}

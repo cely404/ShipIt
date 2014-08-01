@@ -38,7 +38,7 @@ public class ImportantNumbersActivity extends SherlockActivity
 		
 		setContentView( R.layout.activity_important_numbers );
 		
-		setTitle("Temporary");
+		setTitle("Important Numbers");
 
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		
@@ -123,7 +123,7 @@ public class ImportantNumbersActivity extends SherlockActivity
     public boolean onCreateOptionsMenu(Menu menu) {
         getSupportMenuInflater().inflate(R.menu.important_numbers, menu);
         getSupportActionBar().setBackgroundDrawable(
-				new ColorDrawable(Color.rgb(223, 160, 23)));
+				new ColorDrawable(Color.rgb(50, 113, 238)));
 		mymenu = menu;
         return true;
     }

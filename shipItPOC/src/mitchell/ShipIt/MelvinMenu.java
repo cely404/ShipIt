@@ -93,7 +93,7 @@ public class MelvinMenu extends SherlockActivity
     public boolean onCreateOptionsMenu(Menu menu) {
         getSupportMenuInflater().inflate(R.menu.melvin_menu, menu);
         getSupportActionBar().setBackgroundDrawable(
-				new ColorDrawable(Color.rgb(223, 160, 23)));
+				new ColorDrawable(Color.rgb(50, 113, 238)));
 		mymenu = menu;
         return true;
     }

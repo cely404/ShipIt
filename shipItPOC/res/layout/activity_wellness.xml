@@ -3,6 +3,7 @@
     android:layout_height="match_parent"
     android:layout_marginTop="50dp"
     android:orientation="vertical">
+    
         <LinearLayout
         android:layout_height="0dp"
         android:layout_width="match_parent"
@@ -22,17 +23,17 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-          <EditText
+          <TextView
               android:id="@+id/editText1"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:layout_weight="1"
               android:ems="10" 
-              android:text="Shit will go here and then get updated later with magic"
+              android:text="Calendary Entry for the Day"
               android:textIsSelectable="false" >
               
               <requestFocus />
-          </EditText>
+          </TextView>
           
         </LinearLayout>
 

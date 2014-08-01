@@ -1,6 +1,6 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-			<style name="AppTheme" parent="@style/Theme.Sherlock.Light" />
+			<style name="AppTheme" parent="@style/Theme.Sherlock.Light.DarkActionBar" />
 		    <style name="ButtonA">
 		        <item name="android:layout_gravity">center_vertical</item> 
 		        <item name="android:layout_width">0dp</item>

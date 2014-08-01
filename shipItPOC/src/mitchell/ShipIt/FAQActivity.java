@@ -41,7 +41,7 @@ public class FAQActivity extends SherlockActivity
 		
 		setContentView( R.layout.activity_faq );
 		
-		setTitle("Temporary");
+		setTitle("FAQ");
 
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -131,7 +131,7 @@ public class FAQActivity extends SherlockActivity
     public boolean onCreateOptionsMenu(Menu menu) {
         getSupportMenuInflater().inflate(R.menu.faq, menu);
         getSupportActionBar().setBackgroundDrawable(
-				new ColorDrawable(Color.rgb(223, 160, 23)));
+				new ColorDrawable(Color.rgb(50, 113, 238)));
 		mymenu = menu;
         return true;
     }
