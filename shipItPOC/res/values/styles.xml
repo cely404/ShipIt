@@ -1,5 +1,12 @@
 <resources>
 
 			<style name="AppTheme" parent="@style/Theme.Sherlock.Light" />
-
+		    <style name="ButtonA">
+		        <item name="android:layout_gravity">center_vertical</item> 
+		        <item name="android:layout_width">0dp</item>
+		        <item name="android:layout_height">match_parent</item>
+		        <item name="android:background">@drawable/buttona</item>
+		        <item name="android:layout_weight">1</item>
+		        <item name="android:gravity">center_horizontal</item>     
+		    </style>   
 </resources>

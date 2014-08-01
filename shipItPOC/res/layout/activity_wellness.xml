@@ -29,8 +29,8 @@
               android:layout_weight="1"
               android:ems="10" 
               android:text="Shit will go here and then get updated later with magic"
-              >
-
+              android:textIsSelectable="false" >
+              
               <requestFocus />
           </EditText>
           
