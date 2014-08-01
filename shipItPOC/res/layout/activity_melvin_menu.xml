@@ -13,25 +13,29 @@
         <Button
             android:id="@+id/button1"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            style="@style/ButtonA"/>
+            android:layout_height="180dp"
+            style="@style/ButtonA"
+        	android:background="@drawable/monday"/>
         
         <Button
            android:id="@+id/button2"
            android:layout_width="match_parent"
-           android:layout_height="200dp"
-           style="@style/ButtonA"/>
+           android:layout_height="180dp"
+           style="@style/ButtonA"
+           android:background="@drawable/tuesday"/>
+           
         <Button
            android:id="@+id/button3"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            style="@style/ButtonA"/>
+            android:layout_height="180dp"
+            style="@style/ButtonA"
+            android:background="@drawable/wednesday"/>
+            
        
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="15dp"
+        android:layout_height="20dp"
         android:orientation="horizontal" >
 
                       <TextView
@@ -39,7 +43,7 @@
 			        android:layout_width="match_parent"
 			        android:layout_height="match_parent"
 			        android:layout_marginBottom="0dp"
-			        android:layout_marginLeft="5dp"
+			        android:layout_marginLeft="9dp"
 			        android:layout_marginRight="2dp"
 			        android:layout_weight="1"
 			        android:text="Monday"
@@ -49,7 +53,7 @@
 			        android:layout_width="match_parent"
 			        android:layout_height="match_parent"
 			        android:layout_marginBottom="0dp"
-			        android:layout_marginLeft="2dp"
+			        android:layout_marginLeft="5dp"
 			        android:layout_marginRight="2dp"
 			        android:layout_weight="1"
 			        android:text="Tuesday"
@@ -59,7 +63,7 @@
 			        android:layout_width="match_parent"
 			        android:layout_height="match_parent"
 			        android:layout_marginBottom="0dp"
-			        android:layout_marginLeft="2dp"
+			        android:layout_marginLeft="5dp"
 			        android:layout_marginRight="2dp"
 			        android:layout_weight="1"
 			        android:text="Wednesday"
@@ -67,29 +71,70 @@
     </LinearLayout>
     
     <LinearLayout
-        android:layout_height="150dp"
+        android:layout_height="180dp"
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:orientation="horizontal">
         <Button
             android:id="@+id/button4"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            style="@style/ButtonA"/>
+            android:layout_height="180dp"
+            style="@style/ButtonA"
+            android:background="@drawable/thursday"/>
+        
         <Button
             android:id="@+id/button5"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            style="@style/ButtonA"/>
+            android:layout_height="180dp"
+            style="@style/ButtonA"
+        	android:background="@drawable/friday"/>
+        
         
         <Button
             android:id="@+id/button6"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            style="@style/ButtonA"/>
+            android:layout_height="180dp"
+            style="@style/ButtonA"
+            android:background="@drawable/local"/>
+            
    
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal" >
 
+                      <TextView
+			        android:id="@+id/editText2"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_marginBottom="0dp"
+			        android:layout_marginLeft="9dp"
+			        android:layout_marginRight="2dp"
+			        android:layout_weight="1"
+			        android:text="Thursday"
+			        android:textIsSelectable="false" />
+                                            <TextView
+			        android:id="@+id/editText3"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_marginBottom="0dp"
+			        android:layout_marginLeft="5dp"
+			        android:layout_marginRight="2dp"
+			        android:layout_weight="1"
+			        android:text="Friday"
+			        android:textIsSelectable="false" />
+                                                                  <TextView
+			        android:id="@+id/editText4"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_marginBottom="0dp"
+			        android:layout_marginLeft="5dp"
+			        android:layout_marginRight="2dp"
+			        android:layout_weight="1"
+			        android:text="San Diego"
+			        android:textIsSelectable="false" />
+    </LinearLayout>
         <LinearLayout
             android:layout_width="303dp"
             android:layout_height="150dp"
@@ -103,7 +148,7 @@
 			        android:layout_marginLeft="10dp"
 			        android:layout_marginRight="10dp"
 			        android:layout_weight="1"
-			        android:text="Nothing to see here"
+			        android:text=""
 			        android:textIsSelectable="false" />
         </LinearLayout>
 </LinearLayout>
