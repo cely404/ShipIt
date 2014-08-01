@@ -1,7 +1,41 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/container"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="mitchell.ShipIt.WellnessActivity"
-    tools:ignore="MergeRootFrame" />
+    android:layout_marginTop="50dp"
+    android:orientation="vertical">
+        <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        
+    
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+         </LinearLayout>
+        
+      <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+          <EditText
+              android:id="@+id/editText1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:ems="10" 
+              android:text="Shit will go here and then get updated later with magic"
+              >
+
+              <requestFocus />
+          </EditText>
+          
+        </LinearLayout>
+
+
+
+</LinearLayout>

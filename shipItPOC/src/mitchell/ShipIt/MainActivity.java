@@ -41,34 +41,41 @@ Menu mymenu;
 			case R.id.melvinsMenu: {
 				Intent i = new Intent(this, MelvinMenu.class); 
 				startActivity(i);
+				break;
 			}
 			case R.id.localGrub: {
 				Intent i = new Intent(this, LocalGrubActivity.class); 
 				startActivity(i);
+				break;
 			}
 			case R.id.wellness: {
 				Intent i = new Intent(this, WellnessActivity.class); 
 				startActivity(i);
+				break;
 			}
 			case R.id.maps: {
 				Intent i = new Intent(this, MapsActivity.class); 
 				startActivity(i);
+				break;
 			}
 			case R.id.pennyPincher: {
 				Intent i = new Intent(this, PennyPincherActivity.class); 
 				startActivity(i);
+				break;
 			}
 			case R.id.importantNumbers: {
 				Intent i = new Intent(this, ImportantNumbersActivity.class); 
 				startActivity(i);
+				break;
 			}
 			case R.id.faq: {
 				Intent i = new Intent(this, FAQActivity.class); 
 				startActivity(i);
+				break;
 			}
-			default: {}
-			return false;
-			}
+
+		}
+		return false;
 
 	}
 }
